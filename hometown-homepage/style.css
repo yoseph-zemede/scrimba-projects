@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    font-family: "Autour One", sans-serif;
+    text-align: center;
 }
 
 .hero {
@@ -11,4 +13,76 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0;
+}
+
+#title {
+    background-color: #251F47;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+#subtitle {
+    background-color: #71B48D;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+#activities-section {
+    padding: 20px;
+    background-color: #86CB92;
+}
+
+#activities-container {
+    display: flex;
+}
+.activities {
+    margin: 10px 100px;
+}
+
+.activity-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 5px solid white;
+}
+
+.activity-title {
+    margin-top: 20px;
+    font-size: large;
+    font-weight: bold;
+    text-shadow: 0 0 2px white;
+}
+
+#section-title {
+    font-size: larger;
+    text-shadow: 0 0 2px white;
+}
+
+#guide-section{
+    width: 600px;
+    margin: 50px auto;
+}
+
+#guide-img{
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+#guide-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #251F47;
+    padding: 10;
+    border-radius: 10px;
+    border-bottom: 10px solid black;
+    color: white;
+}
+#guide-detail{
+    margin-left: 20px;
 }
