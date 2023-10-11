@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+
+.hero {
+    background-image: url("images/addis-ababa.jpg");
+    height: 50%;
+    background-size: cover;
+    background-position-y: -300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
